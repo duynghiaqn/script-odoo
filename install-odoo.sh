@@ -4,7 +4,7 @@ yum install centos-release-scl -y
 yum install git wget ibxslt-devel bzip2-devel openldap-devel libjpeg-devel freetype-devel -y
 sudo yum groupinstall 'Development Tools' -y
 ## Gist url
-export GIST_URL=""
+export GIST_URL="https://raw.githubusercontent.com/duynghiaqn/script-odoo/master/"
 export ODOO_DOMAIN=app.company.com
 export ODOO_PASSWORD=admin@company.com
 
